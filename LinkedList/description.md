@@ -10,7 +10,7 @@ In a Singly Linked List, each node contains:<br>
 	Data<br>
 	Pointer to the next node<br>
 
-The last node points to null (or None in Python), marking the end of the list.
+The last node points to null (or None in Python), marking the end of the list.<br>
 **Advantages:**
 	Easy to implement<br>
 	Efficient insertion/deletion at the beginning<br>
@@ -22,22 +22,22 @@ The last node points to null (or None in Python), marking the end of the list.
 A Doubly Linked List allows both forward and backward traversal. Each node has:<br>
 	Data<br>
 	Pointer to the next node<br>
- 	Pointer to the previous node
+ 	Pointer to the previous node<br>
 
 **Advantages:**
 	Can be traversed in both directions<br>
 	Easier deletion from the end or middle<br>
 **Disadvantages:**
 	More memory usage due to extra pointer<br>
-	Slightly complex to implement
+	Slightly complex to implement<br>
 
 ## 3. Circular Linked List (CLL)
 In a Circular Linked List, the last node points back to the first node. It can be<br>
 	Singly Circular Linked List: Only next pointer loops to the head.<br>
-	Doubly Circular Linked List: Both next and prev form a circle.
+	Doubly Circular Linked List: Both next and prev form a circle.<br>
  
  **Advantages:**
 	Can go around the list endlessly<br>
-	Useful in circular task scheduling
+	Useful in circular task scheduling<br>
 **Disadvantages:**
-	Requires careful traversal to avoid infinite loops
+	Requires careful traversal to avoid infinite loops<br>
