@@ -17,3 +17,16 @@ The last node points to null (or None in Python), marking the end of the list.
 **Disadvantages:**
 	No backward traversal
 	Slower access to specific elements (no indexing)
+
+## 2. Doubly Linked List (DLL)
+A Doubly Linked List allows both forward and backward traversal. Each node has:
+	Data
+	Pointer to the next node
+ 	Pointer to the previous node
+
+**Advantages:**
+	Can be traversed in both directions
+	Easier deletion from the end or middle
+**Disadvantages:**
+	More memory usage due to extra pointer
+	Slightly complex to implement
